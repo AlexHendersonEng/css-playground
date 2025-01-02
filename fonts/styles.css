@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 174, 255);
+}
+
+p {
+    color: rgb(0, 255, 0);
+
+    /* 
+        The font-family property allows for changing of the font
+        in HTML documents. Listing multiple fonts means the web
+        browser will try to present the text in the font listed first
+        before moving to subsequent fonts.
+    */
+    font-family: 'SixtyFour', 'consolas', 'sans-serif';
+
+    /*
+        Additional font properties.
+    */
+    font-style: italic;
+    font-weight: bold;
+}
