@@ -1,0 +1,31 @@
+body {
+    /* 
+        The margin property sets the amount of space around an element.
+    */
+    margin: 0px;
+}
+
+#container_1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: rgb(0, 229, 255);
+    margin-right: auto;
+    margin-left: auto;
+
+    /*
+        The padding property sets the amount of space between the
+        border and the content of an element. Padding is often 
+        confused with margin.
+    */
+    padding: 10px;
+}
+
+#container_2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: rgb(0, 255, 21);
+}
