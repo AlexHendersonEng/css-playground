@@ -1,0 +1,21 @@
+/* 
+    CSS has 3 different target types for styling:
+        1. Element Selector (lowest specificity and precedence)
+        2. Class Selector
+        3. ID Selector (highest specificity and precedence)
+*/
+
+/* Element Selector */
+p {
+    color: rgb(0, 195, 255);
+}
+
+/* Class Selector */
+.heading {
+    color: rgb(89, 255, 0);
+}
+
+/* ID Selector */
+#heading_1 {
+    color: rgb(251, 0, 255);
+}
