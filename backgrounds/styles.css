@@ -1,0 +1,16 @@
+body {
+    background-image: url('images/background.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    background-color: rgba(0, 255, 89, 0.527);
+}
+
+p {
+    background: linear-gradient(rgb(0, 174, 255),
+                                rgb(200, 200, 200));
+}
