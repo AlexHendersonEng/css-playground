@@ -1,0 +1,38 @@
+/* 
+    A pseudo-class is used to define a special state of an element.
+*/
+
+/* Changes colour of links */
+a:link {
+    color: green;
+}
+
+/* Changes colour of visited links */
+a:visited {
+    color: red;
+}
+
+/* Changes colour when mouse hovers over link */
+a:hover {
+    color: blue;
+}
+
+/* Changes colour when link is selected */
+a:active {
+    color: yellow;
+}
+
+/* Changes colour when mouse hovers over button */
+button:hover {
+    background-color: lightgray;
+}
+
+/* Changes colour when button is selected */
+button:active {
+    background-color: lightblue;
+}
+
+/* Changes background colour of nth item in list */
+li:nth-child(3n + 1) {
+    background-color: lightgray;
+}
