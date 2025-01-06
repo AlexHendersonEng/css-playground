@@ -1,0 +1,28 @@
+/*
+    Use CSS keyframes at rule to create animation.
+*/
+@keyframes mySlide {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+#box_1 {
+    width: 600px;
+    height: 500px;
+    background: red;
+    font-size: 200px;
+    text-align: center;
+
+    /*
+        Add animation defined above to the element.
+    */
+    animation: mySlide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
