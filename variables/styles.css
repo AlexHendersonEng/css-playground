@@ -1,0 +1,28 @@
+/* Assign variable in root pseudo class so it can be acessed globally */
+:root {
+    --main-colour: blue;
+}
+
+/* Use the --main-colour variable in the h1 element */
+h1 {
+    color: var(--main-colour);
+}
+
+/* Use CSS at rule to define a custom property */
+@property --box-color {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: cornflowerblue;
+}
+
+/* Use the custom property in the parent and child elements */
+.parent {
+    --box-color: green;
+    background-color: var(--box-color);
+}
+  
+.child {
+    width: 80%;
+    height: 40%;
+    background-color: var(--box-color);
+}
