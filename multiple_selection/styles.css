@@ -1,0 +1,5 @@
+/* Select multiple items to apply styling by separating with a comma */
+h1, p { 
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
