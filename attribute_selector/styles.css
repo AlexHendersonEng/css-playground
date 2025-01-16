@@ -1,0 +1,21 @@
+/* 
+    Attribute selectors can be used to apply styling to HTML
+    elements with specific attributes.
+    
+    [attribute] -> Select elements with specific attribute.
+    [attribute="value"] -> Select elements with specific attribute and value.
+    [attribute~="value"] -> Select elements with specific attribute value containing a specific word.
+    [attribute|="value"] -> Select elements with specific attribute whose value can be the
+                            exactly specified value of the specified value followed by a hyphen.
+    [attribute^="value"] -> Select elements with specific attribute whose value starts with
+                            the specified value.
+    [attribute$="value"] -> Select elements with specific attribute whose value ends with
+                            the specified value.
+    [attribute*="value"] -> Select elements with specific attribute whose value contains a
+                            the specified value.
+*/
+
+/* Select h1 elements with the target attribute */
+h1[target] {
+    background-color: aqua;
+}
